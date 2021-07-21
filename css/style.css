@@ -1,0 +1,126 @@
+/******************************** 
+          MAIN STYLES 
+********************************/
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Lobster", cursive;
+    font-size:24px;
+    
+    
+    
+}
+
+h1{
+   
+    text-align: center;
+    font-size: 250%;
+    
+}
+h2{
+    text-align:center;
+    margin-top:8px;
+    font-family: 'Bebas Neue', monospace;
+    font-weight: bold;
+    font-size:100%;
+}
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    padding:10px;
+    margin: 0;
+}
+
+.menu{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 10px;
+}
+section{
+    border: 1px solid;
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: auto;
+
+}
+
+#Chicken{
+    border: 1px solid;
+    border-right: 0;
+    padding-top: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+    background-color: rgb(247, 114, 136);
+
+
+}
+
+#Beef{
+    border: 1px solid black;
+    border-right: 0;
+    padding-top: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+    background-color: brown;
+    color: white;
+
+}
+
+#Sushi{
+    border: 1px solid;
+    border-right: 0;
+    padding-top: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: 70%;
+    background-color: seagreen;
+
+}
+
+.row{
+    width: 100%;
+}
+
+@media (min-width: 991px) {
+
+    .menu-lg{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+
+    
+    
+
+
+
+
+@media (min-width:767px) and (max-width:990px) {
+    
+    .menu-md{
+        float: left;
+        width: 50%;
+    }
+    
+    
+    
+}
+
+
+@media (max-width: 766px) {
+   
+    .menu-sm{
+        float: left;
+        width: 100%;
+    }
+}
